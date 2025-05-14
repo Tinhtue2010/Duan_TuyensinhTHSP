@@ -1,0 +1,295 @@
+@media only screen and (min-width: 1024px) {
+    header {
+        height: 80px;
+    }
+
+
+
+    .container-header {
+        width: 60%;
+        justify-content: space-between;
+        grid-template-areas: "header-logo header-links header-button";
+        grid-template-columns: initial;
+    }
+
+    .header-links {
+        gap: 30px;
+    }
+
+    .main-general {
+        width: 100%;
+        padding: 40px 200px 0;
+        /* background-image: url("/images/background_general.jpg"); */
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-general-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-general-info-text {
+        font-size: 24px;
+        text-align: start;
+        text-align-last: initial;
+        margin: 0px;
+    }
+
+    .main-general-info-list {
+        font-size: 15px;
+        width: 100%;
+        margin-top: 20px;
+        line-height: 26px;
+    }
+
+    .main-general-form {
+        background-color: initial;
+    }
+
+    .main-general-form-text {
+        background-color: initial;
+        color: var(--third-color);
+        padding: 0 8px;
+    }
+
+    .main-info {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .main-info-timer {
+        gap: 20px;
+    }
+
+    .main-info-timer-gif {
+        width: 68px;
+    }
+
+    .main-info-info {
+        padding: 0 200px;
+        grid-template-areas:
+            "main-image main-span"
+            "main-image main-list";
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-info-info-span {
+        font-size: 24px;
+        text-align: start;
+    }
+
+    .main-info-info-list {
+        align-self: flex-start;
+        padding: 0px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .main-roadmap-image {
+        background-image: url("image/roadmap2.png");
+        height: 570px;
+    }
+
+    .main-roadmap-gift {
+        justify-content: center;
+        flex-direction: row;
+        gap: 200px;
+    }
+
+    .main-roadmap-gift-text {
+        align-items: self-start;
+    }
+
+    .main-sale {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "sale-head sale-head"
+            "sale-man sale-info";
+    }
+
+    .main-sale-head {
+        grid-area: sale-head;
+    }
+
+    .main-sale-man {
+        grid-area: sale-man;
+        margin-left: 100px;
+    }
+
+    .main-sale-man-shape1 {
+        width: 380px;
+        height: 380px;
+        bottom: 4px;
+        left: 40px;
+        right: initial;
+    }
+
+    .main-sale-man-shape2 {
+        width: 250px;
+        height: 250px;
+        bottom: 4px;
+        right: 100px;
+        left: initial;
+    }
+
+    .main-sale-info {
+        margin-right: 300px;
+        grid-area: sale-info;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-sale-info-intro {
+        font-size: 24px;
+        text-align: start;
+        padding: 0 40px 0 0;
+    }
+
+    .main-sale-info-list {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0;
+    }
+
+    .main-qr {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .main-qr-text {
+        font-size: 30px;
+        width: 470px;
+        text-align: start;
+    }
+
+    .main-qr-image {
+        width: 6%;
+    }
+
+    #main-schedule {
+        width: 40%;
+    }
+
+    .main-feedback {
+        position: relative;
+        padding: 40px 0;
+    }
+
+    .main-feedback-container {
+        width: 60%;
+        position: relative;
+        height: 480px;
+    }
+
+    .main-feedback-text {
+        position: absolute;
+        top: 12%;
+    }
+
+    .main-feedback-card {
+        position: absolute;
+        padding: 20px;
+        width: 450px;
+    }
+
+    .main-feedback-card:nth-child(2) {
+        right: 0;
+    }
+
+    .main-feedback-card:nth-child(3) {
+        right: 10%;
+        top: 32%;
+    }
+
+    .main-feedback-card:nth-child(4) {
+        right: 0;
+        top: 64%;
+    }
+
+    .main-feedback-svg {
+        width: 260px;
+        right: initial;
+        left: 0;
+        transform: initial;
+        bottom: 16%;
+    }
+
+    .main-feedback-star {
+        position: absolute;
+        top: 0;
+        left: -4%;
+    }
+
+    .main-anotherform-form {
+        width: 60%;
+        display: grid;
+        grid-template-areas:
+            "anotherform-student anotherform-text"
+            "anotherform-student anotherform-realform";
+        padding: 0;
+    }
+
+    .main-anotherform-form .main-general-form-text {
+        margin: 20px 0;
+        grid-area: anotherform-text;
+        color: white;
+    }
+
+    .main-anotherform-form-realform {
+        grid-area: anotherform-realform;
+    }
+
+    .main-anotherform-form-button {
+        margin-bottom: 20px;
+    }
+
+    .main-anotherform-form-student {
+        grid-area: anotherform-student;
+    }
+
+    .main-anotherform-form-student-image {
+        align-self: flex-end;
+        width: 80%;
+        object-fit: contain;
+    }
+
+    .main-anotherform-form-student-shape1 {
+        right: 8%;
+        top: initial;
+        bottom: 30%;
+        width: 180px;
+        height: 180px;
+    }
+
+    .main-anotherform-form-student-shape2 {
+        left: 0;
+        top: initial;
+        bottom: 10%;
+        width: 300px;
+        height: 300px;
+    }
+
+    .main-coop {
+        justify-self: center;
+        width: 60%;
+    }
+
+    .footer-container {
+        width: 60%;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 20%;
+    }
+}
